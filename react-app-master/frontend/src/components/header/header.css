@@ -1,0 +1,30 @@
+.header-container{
+    margin-top: 0px;
+    margin-left: 270px;
+    width:170vh;
+    height: 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    
+}
+
+.header-left{
+    margin-left:50px;
+}
+
+.header-right{
+    align-items: center;
+    display: flex;
+    margin-right:90px;
+}
+
+
+.header-user img{
+    border-radius:13px;
+    border:1px solid rgb(0, 0, 0);
+    height:40px;
+    margin-left: 70px;
+    
+}

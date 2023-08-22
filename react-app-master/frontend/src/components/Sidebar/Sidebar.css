@@ -1,0 +1,53 @@
+:root{
+    --main-color: #3574F2;
+    --background: #f4f7fe;
+    --backgroung-white: #fff;
+    --shadow-color: #14141423;
+}
+
+.drawer{
+    height: 98vh;
+    margin-top: -95px; 
+    margin-left: 2px;
+    width: 240px;
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+    box-shadow: 15px 10px var(--shadow-color);
+    
+}
+
+.logo-wrapper {
+    margin: 2rem 0;
+    text-align: center;
+}
+.drawer-menu {
+    margin: 0 2rem;
+    
+    display: flex;
+    flex-direction: column;
+    height: 68vh;
+}
+
+.drawer-menu > .drawer-links {
+    list-style: none;
+    margin: 1rem 0;
+}
+
+.drawer-menu > .drawer-links > li {
+    margin: 2rem 0;
+}
+
+.drawer-links > .text{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    margin-left:1rem ;
+    align-items: center;
+}
+
+.drawer-links:last-child{
+    position: absolute;
+    margin-left:1rem ;
+    bottom: 0rem;
+
+}
